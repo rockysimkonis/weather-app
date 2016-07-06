@@ -1,4 +1,4 @@
-export default functon(state = null, action) {
+export default function(state = null, action) {
   console.log('Action received', action);
   return state;
 }
